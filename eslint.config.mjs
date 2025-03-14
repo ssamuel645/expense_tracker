@@ -16,6 +16,7 @@ export default [
       semi: 'error',
       'prefer-const': 'error',
       '@stylistic/ts/quotes': ['error', 'single'],
+      '@stylistic/ts/object-curly-spacing': ['warn', 'always']
     },
   },
   { languageOptions: { globals: globals.browser } },
